@@ -1,0 +1,25 @@
+  Primitives(TS support)- simple types
+    >boolean
+    >number
+    >string
+
+    and 2 less common primitives in js and ts
+    .bigint
+    .symbol
+
+    Type Assignment
+      - when creating a variable thare are two main type assign
+      .Explicit
+      .Implicit
+
+    Note- 
+      -JS- JS will not throw an error for missmatched types.
+      -TS - TS will throw error for missmatched type.
+
+    Unable to Infer -mean does not identify ki type kaun sa hai😒
+
+     - enable noImplicitAny so it can be disabled by this in tsconfig.json
+
+
+
+

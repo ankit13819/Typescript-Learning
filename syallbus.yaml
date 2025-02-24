@@ -1,0 +1,28 @@
+Typescript setup
+ .Setting up a typescript project
+ .Configuring tsconfig.json
+ .Compiling the project
+
+ >Installed
+  -npm
+  -node
+  -typescript 
+  Note-firstly check the above installed or not
+
+  Installing Steps
+   > npm install typescript -g or --save-dev
+   >npx tsc which can be installed in node_modules
+   
+   Configuring the Compiler
+   >npx tsc --init (tsconfig.json)
+
+  Compilation error 
+      -suppose you run the command 
+      -node index.ts  -->taxError: Unexpected token ':'
+  Note- 
+   -Instlled npm ts-node --save-dev or -g
+    then check the code - ts-node index.ts
+    now your code is successfully run.
+
+    run command in watch mode tsx file -w
+    
